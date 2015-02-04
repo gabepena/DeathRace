@@ -27,6 +27,9 @@ public class Checkpoint1 : MonoBehaviour {
 	{
 		lapNum++;
 		print ("Lap: " + lapNum + "\n");
+		GUIText display = new GUIText();
+		display.text = lapNum.ToString();
+
 	}
 
 	void OnTriggerStay()
